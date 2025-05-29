@@ -31,30 +31,5 @@
 
 
 ## 🌟 Моё портфолио и выполненные проекты
-
-<table width="100%" cellpadding="10">
-  <tr>
-    <!-- карточка 1 -->
-    <td align="left" valign="top" width="50%" style="border:1px solid #444444; border-radius:6px;">
-      <a href="https://github.com/Akim-norfeg/Portfolio-DS-ML" style="text-decoration:none;">
-        <h3 style="margin:0;color:#E91E63;">📓 Portfolio-DS-ML</h3>
-      </a>
-      <p style="margin:0.2em 0 0.8em 0; color:#CCCCCC;">
-        Репозиторий с набором Jupyter-ноутбуков по Data Science и ML-проектам.
-      </p>
-      <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter" alt="Jupyter Notebook"/>
-    </td>
-
-    <!-- карточка 2 -->
-    <td align="left" valign="top" width="50%" style="border:1px solid #444444; border-radius:6px;">
-      <a href="https://github.com/Akim-norfeg/Portfolio" style="text-decoration:none;">
-        <h3 style="margin:0;color:#E91E63;">📂 Portfolio</h3>
-      </a>
-      <p style="margin:0.2em 0 0.8em 0; color:#CCCCCC;">
-        Основной репозиторий профиля: ваш README, картинки, ссылки на проекты.
-      </p>
-      <img src="https://img.shields.io/badge/README--md-blue?style=flat-square&logo=github" alt="README.md"/>
-    </td>
-  </tr>
-</table>
-
+[![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
+[![cv-analyzer-gazprom-neft](https://github-readme-stats.vercel.app/api/pin/?username=KsyLight&repo=cv-analyzer-gazprom-neft&theme=radical)](https://github.com/KsyLight/cv-analyzer-gazprom-neft)
