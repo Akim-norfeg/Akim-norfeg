@@ -5,21 +5,19 @@ permissions:
 
 on:
   schedule:
-    - cron:  '0 */6 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1) Клонируем с persist-credentials, чтобы GITHUB_TOKEN был доступен для пуша
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: true
           fetch-depth: 0
 
-      # 2) Генерируем змейку
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
@@ -27,7 +25,11 @@ jobs:
           output-format: svg
           output-file: contrib-snake.svg
 
-      # 3) Настроим git-пользователя и закоммитим файл
+      - name: Debug: list files
+        run: |
+          echo "Files now in repo:"
+          ls -R .
+
       - name: Commit & Push contrib-snake.svg
         run: |
           git config user.name "github-actions[bot]"
@@ -35,5 +37,3 @@ jobs:
           git add contrib-snake.svg
           git diff --cached --quiet || git commit -m "chore: update contribution snake"
           git push origin HEAD:main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
