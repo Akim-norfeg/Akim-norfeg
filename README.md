@@ -33,3 +33,6 @@
 ## 🌟 Мои портфолио
 [![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio-ds-ml&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
 [![portfolio da](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio)
+
+## 📈 Моя активность в GitHub
+![GitHub Snake Dark](https://akim-norfeg.github.io/snk/only-svg/github-contribution-grid-snake-dark.svg?palette=github-dark)
