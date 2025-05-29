@@ -31,5 +31,5 @@
 
 
 ## 🌟 Моё портфолио и выполненные проекты
-[![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
-[![cv-analyzer-gazprom-neft](https://github-readme-stats.vercel.app/api/pin/?username=KsyLight&repo=cv-analyzer-gazprom-neft&theme=radical)](https://github.com/KsyLight/cv-analyzer-gazprom-neft)
+[![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio-ds-ml&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
+[![portfolio da](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio)
