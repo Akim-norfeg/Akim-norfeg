@@ -1,33 +1,39 @@
 name: 🐍 Generate Contribution Snake
 
-# даём право на запись в репозиторий
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # каждые 6 часов
+    - cron:  '0 */6 * * *'   # каждые 6 часов
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
-      - name: Generate snake animation
-        uses: Platane/generate-snake-game-from-github-contribution-grid@v3.3.0
+      - name: Generate snake animation (SVG + GIF)
+        uses: Platane/snk@v3
         with:
-          username: akim-norfeg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          output-format: svg
-          output-file: contrib-snake.svg
+          github_user_name: akim-norfeg
+          outputs: |
+            contrib-snake.svg
+            contrib-snake.gif?color_snake=green
 
-      - name: Git status
-        run: git status
+      # или, если нужен только svg:
+      # - uses: Platane/snk/svg-only@v3
+      #   with:
+      #     github_user_name: akim-norfeg
+      #     output: contrib-snake.svg
+
+      - name: Show generated files
+        run: ls -lh
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
@@ -35,3 +41,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           force: true
+
