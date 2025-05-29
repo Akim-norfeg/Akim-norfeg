@@ -32,4 +32,4 @@
 
 ## 🌟 Мои портфолио
 [![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio-ds-ml&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
-[![portfolio da](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio)
+[![portfolio data analysis](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio)
