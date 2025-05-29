@@ -1,6 +1,6 @@
 name: 🐍 Generate Contribution Snake
 
-# Даем право на запись в репозиторий
+# даём право на запись в репозиторий
 permissions:
   contents: write
 
@@ -13,26 +13,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Клонируем ваш репозиторий с сохранёнными credentials
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: true
 
-      # Генерируем «змейку»
       - name: Generate snake animation
-        uses: Platane/snakes@v3.3.0       # правильный Action и версия
+        uses: Platane/generate-snake-game-from-github-contribution-grid@v3.3.0
         with:
           username: akim-norfeg
           token: ${{ secrets.GITHUB_TOKEN }}
           output-format: svg
-          output-file: contrib-snake.svg   # появится в корне
+          output-file: contrib-snake.svg
 
-      # Убеждаемся, что файл добавлен
       - name: Git status
         run: git status
 
-      # Пушим обратно в main (не master!)
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
