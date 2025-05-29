@@ -46,7 +46,7 @@
     </td>
 
     <!-- карточка 2 -->
-   <td align="left" valign="top" width="50%" style="border:1px solid #444444; border-radius:6px;">
+    <td align="left" valign="top" width="50%" style="border:1px solid #444444; border-radius:6px;">
       <a href="https://github.com/Akim-norfeg/Portfolio" style="text-decoration:none;">
         <h3 style="margin:0;color:#E91E63;">📂 Portfolio</h3>
       </a>
