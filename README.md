@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp; ✅ Победитель и призёр Всероссийских кейс-чемпионатов и хакатонов <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ✅ В конце 2024 года закончил обучение на платформе Яндекс Практикум, получил сертификат о прохождении обучения по программе «Аналитик данных» <br>
 
-### 🛠 Основной стек технологий и инструментов
+## 🛠 Основной стек технологий и инструментов
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -27,3 +27,10 @@
   <img alt="Google Sheets" src="https://img.shields.io/badge/-Google_Sheets-0F9D58?style=for-the-badge&logo=google-sheets&logoColor=white"/>
   <img alt="DataLens" src="https://img.shields.io/badge/-DataLens-F2C811?style=for-the-badge&logo=power-bi&logoColor=white"/>
 </p>
+
+## 📈 Моя активность в GitHub
+
+<p align="center">
+  <img src="./github-activity-graph.svg" alt="GitHub Activity Graph" />
+</p>
+
