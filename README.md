@@ -1,11 +1,6 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Akim-norfeg&style=for-the-badge)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s_Akim_s)
 [![Mail](https://img.shields.io/badge/Mail.Ru-Mail.Ru-005FF9?style=for-the-badge&logo=Mail.Ru&logoColor=white)](mailto:as-0405@mail.ru)
-<p align="center">
-  <img src="https://media.giphy.com/media/l4EoZ7GN1hXhVvH9W/giphy.gif" width="200" alt="Пример GIF">
-</p>
-
-
 
 # Серкибаев Аким
 ## Data Scientist | ML-Engineer | Продуктовый аналитик 
