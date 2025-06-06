@@ -38,6 +38,24 @@
 [![portfolio ds ml](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio-ds-ml&theme=radical)](https://github.com/Akim-norfeg/Portfolio-DS-ML)
 [![portfolio data analysis](https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical)](https://github.com/Akim-norfeg/Portfolio)
 
+## 🌟 Мои портфолио
+
+<a href="https://github.com/Akim-norfeg/Portfolio-DS-ML">
+  <img
+    alt="portfolio ds ml"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio-ds-ml&theme=radical"
+    width="300"
+    height="180" />
+</a>
+<a href="https://github.com/Akim-norfeg/Portfolio">
+  <img
+    alt="portfolio data analysis"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=Akim-norfeg&repo=portfolio&theme=radical"
+    width="300"
+    height="180" />
+</a>
+
+
 
 ## Активность
 ![GitHub Snake dark](https://raw.githubusercontent.com/Akim-norfeg/snk/main/svg-only/dist/github-contribution-grid-snake-dark.svg)
