@@ -40,4 +40,4 @@
 
 
 ## Активность
-![GitHub Snake](https://raw.githubusercontent.com/akim-norfeg/snk/main/dist/github-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/akim-norfeg/snk/svg-only/dist/github-snake.svg)
