@@ -41,31 +41,3 @@
 
 ## Активность
 ![GitHub Snake dark](https://raw.githubusercontent.com/Akim-norfeg/snk/main/svg-only/dist/github-contribution-grid-snake-dark.svg)
-
-
-<table>
-  <tr>
-    <!-- Ячейка 1: оригинальный график с датами -->
-    <td>
-      <img 
-        alt="GitHub Contributions с подписями" 
-        src="https://github.com/users/Akim-norfeg/contributions" 
-        width="350"/>
-    </td>
-    <!-- Ячейка 2: «змейка» без подписей -->
-    <td>
-      <picture>
-        <source 
-          media="(prefers-color-scheme: dark)" 
-          srcset="https://raw.githubusercontent.com/Akim-norfeg/snk/main/svg-only/dist/github-contribution-grid-snake-dark.svg" />
-        <source 
-          media="(prefers-color-scheme: light)" 
-          srcset="https://raw.githubusercontent.com/Akim-norfeg/snk/main/svg-only/dist/github-contribution-grid-snake.svg" />
-        <img 
-          alt="GitHub Snake Contribution Graph" 
-          src="https://raw.githubusercontent.com/Akim-norfeg/snk/main/svg-only/dist/github-contribution-grid-snake.svg" 
-          width="350"/>
-      </picture>
-    </td>
-  </tr>
-</table>
