@@ -40,4 +40,4 @@
 
 
 ## Активность
-![snake gif](http://Akim-norfeg.github.io/snk/dist/github-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/akim-norfeg/snk/main/dist/github-snake.svg)
